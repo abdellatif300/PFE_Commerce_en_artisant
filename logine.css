@@ -1,0 +1,115 @@
+form {
+  
+  width:80%;
+  margin-left:45px;
+  height: 380px;
+  border-radius: 4px;
+}
+body{
+  background-color:rgb(251, 249, 249);
+}
+.style{
+  margin-left: 25%;
+  margin-top: 5%;
+  width: 490px;
+  height: 500px;
+  border-radius: 8px;
+  border: 3px solid #f1f1f1;
+  background-color: rgb(241, 222, 195);
+}
+.pass{
+  margin-top: 10%;
+  margin-left: 10px;
+}
+.style h2{
+  margin-left: 35%;
+  margin-top: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgb(14, 13, 13);
+
+}
+
+
+.lnb label{
+  margin-top: 15px;
+  margin-left: 10px;
+  max-width:12px;
+  
+}
+
+.lni label{
+margin-top: 15px;
+margin-left: 10px;
+max-width:12px;
+
+}
+
+button{
+    margin-left:59%;
+    height: 30px;
+    border-radius: 4px;
+    background-color: rgb(241, 246, 246);
+    border: none;
+    border: 3px solid rgb(188, 179, 179);
+}
+button:hover{
+  background-color:rgb(234, 206, 172);
+}
+span a{
+    margin-left: 15%;
+    color:rgb(58, 34, 195);
+}
+span a:hover{
+    color:rgb(11, 11, 17);
+}
+
+.lnb input{
+margin-left: 60px;
+}
+.qa{
+  width: 70%;
+  height: 30%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  margin-left:16%;
+  border: none;
+  background-color: rgb(252, 251, 251);
+
+}
+.cd{
+
+  margin-left:60px;
+}
+.qs  {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 40px;
+  margin-left:15%;
+  border: none;
+  background-color: rgb(252, 251, 251);
+}
+
+.lnb label{
+  margin-left:15%;
+  color: rgb(97, 95, 95);
+}
+.lni label{
+  margin-left:15%;
+  color: rgb(97, 95, 95);
+}
+@media (max-width:700px){
+  .style{
+    margin-left: 3px;
+    margin-top: 150px;
+  }
+
+
+}

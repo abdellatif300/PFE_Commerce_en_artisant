@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@500&family=Forum&display=swap');
+ body{
+     margin: 0;
+     padding: 0;
+     background-color:#fdfef8;
+     position:relative;
+     font-family: 'Cinzel', serif;
+     font-family: 'Cormorant Garamond', serif;
+     font-family: 'Forum', cursive;
+
+ }
+ .mrwan{
+     width: 100%;
+ }
+
+.ras{
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.ras span{
+    display: block;
+    margin-top:40px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+    color:black;
+}
+
+
+.hero{
+    width: 96%;
+    height:300px ;
+    display: flex;
+    margin-top: 70px;
+    background-color:beige;
+    margin-left:20px;
+    margin-right: 20px;
+    border-radius: 8px;
+    
+}
+.sora{
+    margin-left:100px;
+   max-width: 300px;
+}
+.mrwan{
+        
+    overflow-x: hidden;
+}
+
+ .sora img{
+   margin-top: 10px;
+    width:290px;
+    height:280px;
+    margin-right:10px;
+    border-radius: 8px;
+}
+.nas{
+    width: 900px;
+    min-width: 300px;
+   
+}
+
+
+
+.nas h1{
+    color:rgb(61, 60, 60);
+    margin-top: 40px; 
+    margin-left: 50px;
+    text-decoration: solid;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+    font-size: 14px;
+}
+section{
+    margin-top: 50px;
+}
+
+section .ze{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-column-gap:10px ;
+        grid-row-gap:1em;
+        justify-items: center;
+    }
+
+.er1{
+    margin-left: 40px;
+    margin-top: 20px;
+}  
+.er1 img{
+    width:200px;
+    height:150px; 
+}
+.er1 img{
+    border-radius:8px;
+    border: 4px solid beige;
+    transition: all 0.55s ease ;
+}
+.er1 img:hover{
+    transform:scale(1.2);
+    box-shadow : 0px -1px 5px 1px black;
+    transition : all 0,85s ease;
+}         
+.er1 h1{
+    margin-left:70px;
+    font-size:large;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+}
+ h3{
+    margin-left: 40px;
+    margin-top: -9px;
+}
+.er1 h1:hover{
+    color:rgb(218, 143, 52);
+}
+
+
+.ze section{
+    margin-top: 100px;
+    background-color:#fdfef8;
+}
+.as{
+    justify-content:space-between;
+}
+.as img{
+    width: 40px;
+    height: 40px;
+}
+.fys img{
+    margin-left:800px;
+    margin-top:65px;
+}
+.wat img{
+    margin-left: 800px;
+    margin-top: 30px;
+}
+h2{
+    margin-top: 3px;
+}
+
+.cont{
+  margin-left: 750px;
+}
+
+.cofoter h4{
+    color: rgb(159, 155, 155);
+    font-family: inherit;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+
+
+@media (max-width:600px) and (max-width:200px)  {
+   
+     .ras{
+         width: 20%;
+     }
+     body{
+         width: 30%;
+     }
+    section .ze{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-column-gap:10px ;
+        grid-row-gap:1em;
+        column-gap: 1px;
+       
+        justify-content:center ;
+    }
+    .mrwan{
+        
+        overflow-x: hidden;
+    }
+    .hero{
+        width: 20%;
+    }
+    .hero .nas{
+      
+        background-color: beige;
+      }
+      .sora img{
+       display: none;
+      }
+}
+
+@media (min-width:1000px){
+    .mrwan{
+        
+        overflow-x: hidden;
+    }
+   
+    section .ze{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-column-gap:10px ;
+        grid-row-gap:1em;
+        column-gap: 1px;
+    }
+   
+}
+@media (max-width:700px){
+    .mrwan{
+        
+        overflow: hidden;
+    }
+   
+    .hero{
+      width: 20%;
+      background-color: beige;
+    }
+    .nas{
+      font-size: 85%;  
+      text-align:center;
+      width: 10%;
+    }
+  .ras{
+      width: 20px;
+  }
+}
+
+@media (max-width:899px)and(min-width:599px){
+    .mrwan{
+        
+        overflow: hidden;
+    }
+    section .ze{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-column-gap:10px ;
+        grid-row-gap:1em;
+        column-gap: 1px;
+    }
+    .er1{
+        justify-content: center;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+

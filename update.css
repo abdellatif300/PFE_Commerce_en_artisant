@@ -1,0 +1,37 @@
+
+.card{
+    margin-top: 150px;
+    margin-left: 25%;
+    border: 2px solid beige;
+    border-bottom: 3px solid beige;
+    width: 500px;
+    height: 400px;
+    background-color:#ece3b8;
+    border-radius: 8px;
+}
+.card img{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.AZ{
+    margin-left:190px ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.er{
+    margin-left: 130px;
+    
+}
+button{
+    width: 120px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: bisque;
+
+}
+.er button:hover{
+    background-color: aquamarine;
+}

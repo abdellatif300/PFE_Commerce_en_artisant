@@ -1,0 +1,83 @@
+
+body{
+    background-color:#fdfef8;
+    
+}
+.sd{
+   margin-left: 175px;  
+   margin-top: 50px;
+   color: rgb(119, 119, 118);
+}
+.insert{
+    background-color:rgb(241, 222, 195);
+    width: 650px;
+    margin-left:170px;
+    height: 600px;
+    border: 3px solid rgb(188, 179, 179);
+    margin-top:5px;
+    border-radius: 8px;
+    
+}
+.qs{
+    width:45%;
+    margin: 6px 0;
+    border: 2px solid rgb(255, 253, 253);
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 35px;
+    margin-left:29%;
+    border: none;
+    background-color:rgb(252, 250, 248);
+    margin-top: 15px;
+  }
+  
+  .Ad h2{
+      text-align: center;
+      margin-top:60px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: rgb(125, 123, 123);
+  }
+label{
+    margin-left:29%;
+    color: rgb(100, 98, 98);
+}
+button{
+    margin-left: 64%;
+    width: 10%;
+    height:35px;
+    border: 3px solid rgb(251, 248, 248);
+    border-radius: 6px;
+    background-color:#f7f3f1;
+
+}
+button:hover{
+    background-color:rgb(244, 216, 174);
+}
+.ho{
+    margin-left:29% ;
+    margin-top:20px;
+}
+.Ad a{
+    margin-left:200px;
+    margin-top: 10px;
+    color: rgb(70, 68, 70);
+}
+.Ad a:hover{
+    color:blue;
+}
+@media (max-width:600px){
+    .insert{
+        overflow: hidden;
+        width: 368px;
+        margin-left: -1px;
+    }
+    button{
+        width: 100px;
+        margin-top: 20px;
+        
+    }
+   .Ad a{
+        margin-top:50px ;
+        margin-left: 120px;
+    }
+}

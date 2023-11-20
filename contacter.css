@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@500&family=Forum&display=swap');
+
+body {
+    background-color: #fdfef8;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+
+}
+
+form {
+    background-color: #ece3b8;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.separation {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(102, 102, 102);
+}
+
+.corp-formulaire {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.groupe {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form .corp-formulaire .gauche .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid rgb(224, 217, 200);
+    border-radius: 5px;
+}
+
+form .corp-formulaire .gauche .groupe i {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    padding: 9px 8px;
+}
+
+form .corp-formulaire .droite {
+    margin-left: 40px;
+
+}
+
+form .corp-formulaire .droite .groupe {
+    height: 100%;
+}
+
+form .corp-formulaire .droite .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid rgb(224, 217, 200);
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 173px;
+}
+
+form .pied-formulaire input .env {
+    margin-bottom: 0px;
+
+}
+
+form .pied-formulaire input.env {
+
+    width: 30%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #fdfef8;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 120px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+    font-weight: bolder;
+}

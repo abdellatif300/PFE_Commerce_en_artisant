@@ -1,0 +1,75 @@
+.detail{
+    margin-top: 200px;
+    display: flex;
+   
+}
+a{
+    text-decoration: none;
+}
+
+#file{
+    display: none;
+}
+#kn{
+    width: 30px;
+    height: 30px;
+}
+.detail .profile-pic-div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+.AS{
+    margin-left: -50px;
+    color: rgb(86, 84, 84);
+}
+.AS img{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    
+}
+.info{
+ margin-left: 150px;
+ margin-top: 30px;
+}
+.inf{
+    margin-left:300px;
+}
+.foot{
+    border: 2px solid red;
+    margin-left: 80px;
+    border: 3px solid rgb(199, 162, 88);
+    width: 350px;
+    height: 400px;
+    background-color: beige;
+    border-radius: 10px;
+}
+button{
+   
+    width: 200px;
+    height: 40px;
+    margin-left: 770px;
+    background-color: beige;
+    border-radius: 5px;
+    
+}
+.carder img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    margin-left: 80px;
+    
+}
+.pricee{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: rgb(101, 100, 100);
+}
+.price{
+    text-align: center;
+    color: rgb(67, 65, 65);
+}
+

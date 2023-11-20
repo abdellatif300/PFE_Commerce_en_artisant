@@ -1,0 +1,82 @@
+
+#kn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 165px;
+    margin-top: -250px;
+
+}
+a{
+    text-decoration: none;
+    transition: none;
+    color: black;
+   
+}
+.asya input{
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 8px;
+    height: 40px;
+    background-color: beige;
+}
+.gj{
+    background-color: beige;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+#file{
+    display: none;
+}
+.may{
+    display: flex;
+    margin-top: 0px;
+}
+.foot{
+    background-color:rgb(166, 166, 103);
+    width:300px;
+  
+    border: 3px solid rgb(178, 178, 181);
+}
+.cont{
+    background-color:beige;
+    width: 700px;
+    border: 3px solid rgb(178, 178, 181);
+}
+.cont img{
+    width: 100px;
+    height: 100px;
+    border: 5px solid bisque;
+}
+.cont{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.card{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.AS{
+ text-align: center;
+
+}
+.info{
+  margin-top: 200px;
+}
+
+.ando button{
+    border-radius: 6px;
+    margin-top: 140px;
+    margin-left:798px;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(216, 214, 212);
+}
+.info img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 45px;
+}
+

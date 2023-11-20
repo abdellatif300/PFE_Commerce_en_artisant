@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:wght@500&family=Forum&display=swap');
+
+
+
+.gox{
+    background-color: beige;
+    padding: 30px;
+    border-radius: 10px;
+    width: 450px;
+    margin-top: 100px;
+    margin-left: 30%;
+    height: 430px;
+    position:relative;
+    
+   
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.separation {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(102, 102, 102);
+}
+
+.corp-formulaie {
+    display: inline;
+    margin-bottom: 30px;
+
+}
+
+.groupe {
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+form .corp-formulaire .groupe input {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid rgb(224, 217, 200);
+    border-radius: 5px;
+}
+
+form .corp-formulaire .groupe select {
+    margin-top: 5px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid rgb(224, 217, 200);
+    border-radius: 5px;
+}
+
+form .corp-formulaire .groupe textarea {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid rgb(224, 217, 200);
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 173px;
+
+}
+
+select .categorie {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid rgb(224, 217, 200);
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    height: 173px;
+
+}
+
+button {
+
+    width: 50%;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #fdfef8;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 30px 10px 0px 10px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Forum', cursive;
+    font-weight: bolder;
+}
